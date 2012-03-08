@@ -4,7 +4,7 @@
 * F11.js
 * inspired by http://robertnyman.com/2012/03/08/using-the-fullscreen-api-in-web-browsers/
 * Browser : FF (10+),Crome (15+) and Safari(5.1)
-* Licence : MIT
+* License : MIT (http://www.opensource.org/licenses/mit-license.php) license.
 * 
 **/
 
