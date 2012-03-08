@@ -1,0 +1,29 @@
+html:-moz-full-screen {
+	background-color:#FCFCFC;
+}
+html:-webkit-full-screen {
+	background-color:#FCFCFC;
+}
+html:fullscreen {
+	background-color:#FCFCFC;
+}
+#body{
+	height:90%;
+	width:50%;
+	padding:5% 20%;
+	text-align:center;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+#fullscreen,#exitscreen,#imgFS{
+	display : block;
+	width:auto;
+	height:20px;
+	border-radius:5px;
+	background:#DCDCDC;
+	padding:10px;
+	font-weight:bold;
+	margin:5px;
+}

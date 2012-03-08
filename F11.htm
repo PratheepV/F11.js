@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="F11.css">
+	<title>:::::::::: F11 js Demo ::::::::::</title>
+</head>
+<body>
+	<div id="body">
+		<div>
+			<a id="fullscreen" href="#">
+			Full screen
+			</a>
+			<a id="exitscreen" href="#">
+			Exit Full screen
+			</a>
+			<img id="img" src="site_title.png"/>
+			<a id="imgFS">Full img</a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="F11.js"></script>
+<script>
+	var eById = function(id){
+		return document.getElementById(id);
+	};
+	//For showing document in full screen
+	$F11.fullscreen(eById('fullscreen'));
+	//For showing image in full screen
+	$F11.fullscreen(eById('imgFS'),eById('img'));
+	//For existing full screen
+	$F11.exitFullScreen(eById('exitscreen'))
+</script>
+</html>
